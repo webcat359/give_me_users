@@ -25,7 +25,7 @@ const Content = () => {
       });
   }, [page]);
   const goNext = (num: Number) => {
-        num > 0 ? setPage(page + 1) : page ===0 ? alert() : setPage(page - 1);
+        num > 0 ? setPage(page + 1) : page === 0 ? alert() : setPage(page - 1);
   };
   return (
     <div className="p-4">
